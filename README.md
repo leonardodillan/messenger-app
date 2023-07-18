@@ -19,7 +19,7 @@ Características principais:
 - Anexos de mensagens e compartilhamento de arquivos
 - Personalização e configurações do perfil do usuário
 
-### Instalar dos pacotes
+### Instalar os pacotes
 
 `npm i`
 
