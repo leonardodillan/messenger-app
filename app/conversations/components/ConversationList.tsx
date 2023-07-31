@@ -120,7 +120,7 @@ const ConversationList: React.FC<ConversationListProps> = ({
                         font-bold
                         text-neutral-800
                     ">
-                        Messages
+                        Mensagens
                     </div>
                     <div
                         onClick={() => setIsModalOpen(true)}

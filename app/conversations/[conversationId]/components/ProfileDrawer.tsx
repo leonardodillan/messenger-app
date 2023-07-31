@@ -294,7 +294,7 @@ const ProfileDrawer: React.FC<ProfileDrawerProps> = ({
                                                                                 sm:flex-shrink-0
                                                                             "
                                                                         >
-                                                                            Joined
+                                                                            Ingressou em
                                                                         </dt>
                                                                         <dd
                                                                             className="

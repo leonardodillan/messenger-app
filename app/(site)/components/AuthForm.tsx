@@ -179,7 +179,7 @@ const AuthForm = () => {
                                 text-sm
                             ">
                             <span className="bg-white px-2 text-gray-500">
-                                Or continue with
+                                Ou continue com
                             </span>
                         </div>
                     </div>
