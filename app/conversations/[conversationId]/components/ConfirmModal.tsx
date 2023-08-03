@@ -109,7 +109,7 @@ const ConfirmModal: React.FC<ConfirmModalProps> = ({
                         secondary
                         onClick={onClose}
                     >
-                        Cancel
+                        Cancelar
                     </Button>                    
                 </div>           
             </Modal>

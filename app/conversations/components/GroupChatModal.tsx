@@ -83,7 +83,7 @@ const GroupChatModal: React.FC<GroupChatModalProps> = ({
                                 text-gray-600
                             "
                         >
-                            Create a chat with more than 2 people
+                            Crie um chat com mais de 2 pessoas.
                         </p>
                         <div
                             className="
@@ -95,7 +95,7 @@ const GroupChatModal: React.FC<GroupChatModalProps> = ({
                         >
                             <Input
                                 register={register}
-                                label="Name"
+                                label="Nome"
                                 id="name"
                                 disabled={isLoading}
                                 required
@@ -103,7 +103,7 @@ const GroupChatModal: React.FC<GroupChatModalProps> = ({
                             />
                             <Select
                                 disabled={isLoading}
-                                label="Members"
+                                label="Membros"
                                 options={users.map((user) => ({
                                     value: user.id,
                                     label: user.name
@@ -131,13 +131,13 @@ const GroupChatModal: React.FC<GroupChatModalProps> = ({
                         type="button"
                         secondary
                     >
-                        Cancel
+                        Cancelar
                     </Button>
                     <Button
                         disabled={isLoading}
                         type="submit"
                     >
-                        Create
+                        Criar
                     </Button>
                 </div>
             </form>

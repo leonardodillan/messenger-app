@@ -72,10 +72,10 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                             leading-7
                             text-gray-900
                         ">
-                            Profile
+                            Perfil
                         </h2>
                         <p className="mt-1 text-sm leading-6 text-gray-600">
-                            Edit your public information
+                            Edite suas informações públicas.
                         </p>
                         <div className="
                             mt-10
@@ -101,7 +101,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                                         text-gray-900
                                     "
                                 >
-                                    Photo
+                                    Foto
                                 </label>
                                 <div className="
                                     mt-2
@@ -126,7 +126,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                                             secondary
                                             type="button"
                                         >
-                                            Change
+                                            Alterar
                                         </Button>
                                     </CldUploadButton>
                                 </div>
@@ -148,13 +148,13 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                             secondary
                             onClick={onClose}
                         >
-                            Cancel
+                            Cancelar
                         </Button>
                         <Button
                             disabled={isLoading}
                             type="submit"
                         >
-                            Send
+                            Enviar
                         </Button>
                     </div>
                 </div>
