@@ -73,7 +73,7 @@ const GroupChatModal: React.FC<GroupChatModalProps> = ({
                                 text-gray-900
                             "
                         >
-                            Create a group chat
+                            Crie um chat em grupo
                         </h2>
                         <p
                             className="
