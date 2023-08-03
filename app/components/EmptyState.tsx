@@ -21,7 +21,7 @@ const EmptyState = () => {
                     text-gray-900
                 "
             >
-                Select a chat or start a new conversation
+                Selecione um chat ou comece uma nova conversa
             </h3>
         </div>
        </div> 
