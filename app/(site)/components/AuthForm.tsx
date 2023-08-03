@@ -122,7 +122,7 @@ const AuthForm = () => {
                     {variant === 'REGISTER' && (
                         <Input
                             id="name"
-                            label="Name"
+                            label="Nome"
                             register={register}
                             errors={errors}
                             disabled={isLoading}
@@ -130,7 +130,7 @@ const AuthForm = () => {
                     )}
                     <Input
                         id="email"
-                        label="Email address"
+                        label="Endereço de email"
                         type="email"
                         register={register}
                         errors={errors}
@@ -138,7 +138,7 @@ const AuthForm = () => {
                     />
                     <Input
                         id="password"
-                        label="Password"
+                        label="Senha"
                         type="password"
                         register={register}
                         errors={errors}
@@ -150,7 +150,7 @@ const AuthForm = () => {
                             fullWidth
                             type="submit"
                         >
-                            {variant === 'LOGIN' ? 'Sign In' : 'Register'}
+                            {variant === 'LOGIN' ? 'Entrar' : 'Registrar'}
                         </Button>
                     </div>
                 </form>
@@ -213,7 +213,7 @@ const AuthForm = () => {
                         onClick={toggleVariant}
                         className="underline cursor-pointer"
                     >
-                        {variant === 'LOGIN' ? 'Crie uma conta' : 'Login'}
+                        {variant === 'LOGIN' ? 'Crie uma conta' : 'Faça o Login'}
                     </div>
                 </div>
 
