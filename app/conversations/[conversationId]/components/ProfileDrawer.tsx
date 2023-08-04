@@ -210,7 +210,7 @@ const ProfileDrawer: React.FC<ProfileDrawerProps> = ({
                                                                     text-neutral-600
                                                                 "
                                                             >
-                                                                Delete
+                                                                Excluir
                                                             </div>
                                                         </div>
                                                     </div>
