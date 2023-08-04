@@ -53,7 +53,7 @@ const GroupChatModal: React.FC<GroupChatModalProps> = ({
             router.refresh();
             onClose();
         })
-        .catch(() => toast.error('Something went wrong'))
+        .catch(() => toast.error('Alguma coisa deu errado!'))
         .finally(() => setIsLoading(false))
     }
 

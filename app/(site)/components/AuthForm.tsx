@@ -70,11 +70,11 @@ const AuthForm = () => {
             })
             .then((callback) => {
                 if (callback?.error) {
-                    toast.error('Invalid credentials')
+                    toast.error('Credenciais inválidas')
                 }
 
                 if (callback?.ok && !callback.error) {
-                    toast.success('Logged in!')
+                    toast.success('Login realizado!')
                     router.push('/users')
                 }
             })
@@ -88,11 +88,11 @@ const AuthForm = () => {
         signIn(action, { redirect: false })
         .then((callback) => {
             if(callback?.error) {
-                toast.error('Invalid Credentials');
+                toast.error('Credenciais inválidas');
             }
 
             if (callback?.ok && !callback?.error) {
-                toast.success('Logged in!')
+                toast.success('Login realizado!')
             }
         })
         .finally(() => setIsLoading(false))
